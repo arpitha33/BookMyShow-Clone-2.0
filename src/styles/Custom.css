@@ -1,0 +1,65 @@
+/* src/styles/custom.css */
+
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navbar Customization */
+  .navbar {
+    background-color: #333 !important;
+  }
+  
+  .navbar-brand img {
+    max-height: 40px;
+  }
+  
+  /* Carousel Customization */
+  .featured-carousel {
+    margin-bottom: 2rem;
+  }
+  
+  .featured-carousel .carousel-caption {
+    background-color: rgba(0,0,0,0.6);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  /* Movie List Table */
+  .table-hover tbody tr:hover {
+    background-color: rgba(0,0,255,0.1);
+    cursor: pointer;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+    
+    .table-responsive {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Button Styles */
+  .btn-primary {
+    background-color: #e50914;
+    border-color: #e50914;
+  }
+  
+  .btn-primary:hover {
+    background-color: #f6121d;
+  }
+  
+  /* Dark Mode (Optional) */
+  .dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .dark-mode .table {
+    color: #ffffff;
+    background-color: #1e1e1e;
+  }
